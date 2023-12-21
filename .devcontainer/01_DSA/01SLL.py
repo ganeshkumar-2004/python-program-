@@ -102,5 +102,5 @@ mylist.insert_at_last(67)
 mylist.insert_at_last(10)
 for x in mylist:
     print(x,end=" ")
-print()
+print() your chutiya
      
