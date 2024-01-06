@@ -33,7 +33,7 @@ class CDLL:
             self.start.prev=n
     def search_item(self,data):
         temp=self.start
-        if temp==None:
+        if temp==None: 
             return None
         if temp.item==data:
             return temp
@@ -116,7 +116,7 @@ mylist.insert_at_first(40)
 mylist.insert_at_last(60)
 mylist.insert_at_last(70)
 mylist.insert_at_last(90)
-mylist.insert_at_last(100)
+mylist.insert_at_last(100) 
 mylist.insert_after(mylist.search_item(40),50)
 mylist.print_item()
 print()          
